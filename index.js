@@ -5,7 +5,7 @@ var Service, Characteristic;
 actualDevice = [];
 var ssdp = require('node-ssdp').Client, client = new ssdp();
 http = require('http'), url = require('url'), request = require('request');
-var discoverInterval = 10000; //milliseconds
+var discoverInterval = 1000000; //milliseconds
 var confHost = "127.0.0.1";
 var logBridge ;
 var lightbulbService;
